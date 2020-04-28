@@ -1,0 +1,34 @@
+{
+	"name": "labor-digital/max-mind-helpers",
+	"description": "Helper package to implement IP to geolocation resolving based on the MaxMind database",
+	"type": "library",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "LABOR.digital",
+			"email": "info@labor.tools",
+			"homepage": "https://www.labor.digital",
+			"role": "Company"
+		},
+		{
+			"name": "Martin Neundorfer",
+			"email": "code@neunerlei.eu",
+			"homepage": "https://www.neunerlei.eu",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/labor-digital/max-mind-helpers/issues",
+		"source": "https://github.com/labor-digital/max-mind-helpers"
+	},
+	"require": {
+		"guzzlehttp/guzzle": "~6.0",
+		"maxmind-db/reader": "^1.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"LaborDigital\\MaxMindHelpers\\": "Classes/"
+		}
+	},
+	"version": "1.0.0"
+}
